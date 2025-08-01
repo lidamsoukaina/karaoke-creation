@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) != 3:
         print(
-            "Usage: python jobs/separate_vocals_instruments.py <audio_file> <output_dir>"
+            "Usage: python separate_vocals_and_instruments.py <audio_file> <output_dir>"
         )
         sys.exit(1)
 
@@ -32,4 +32,3 @@ if __name__ == "__main__":
     output_dir = sys.argv[2]
 
     separate_vocals_instruments(audio_file, output_dir)
-    print(f"Separation completed. Check the output in {output_dir}")

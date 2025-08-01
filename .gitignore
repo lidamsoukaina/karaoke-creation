@@ -1,1 +1,8 @@
 *venv
+*wav
+pretrained_models
+outputs/*
+envs*
+.*
+__pycache__/
+*.mp4
